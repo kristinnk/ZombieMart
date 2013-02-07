@@ -1,0 +1,9 @@
+.container {
+	border: 6px solid black;
+	width: 800px;
+	height: 600px;
+}
+
+body {
+	background-color: #222222;	
+}
