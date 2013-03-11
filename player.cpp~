@@ -1,0 +1,12 @@
+#include "player.h"
+
+player_class::player_class()
+{
+  m_posX = 100;
+  m_posY = 100;  
+}
+
+void player_class::draw()
+{
+
+}

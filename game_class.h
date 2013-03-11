@@ -1,4 +1,5 @@
 #include "SDL/SDL.h"
+#include "player.h"
 
 class game_class {
 public:
@@ -13,4 +14,7 @@ private:
   int m_screenWidth;
   int m_screenHeight;
   int m_screenBPP;
+  
+  player_class player;
+  
 };

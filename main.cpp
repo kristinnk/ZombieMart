@@ -1,3 +1,4 @@
+#include "includes.h"
 #include "game_class.h"
 
 int main(int argc, char **argv) {
