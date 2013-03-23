@@ -8,5 +8,5 @@ public:
 private:
   int m_posX;
   int m_posY;
-  SDL_Surface *m_player_sprite;
+  //SDL_Surface *m_player_sprite;
 };
