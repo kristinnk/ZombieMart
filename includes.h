@@ -3,6 +3,7 @@
 
 #include "SDL/SDL.h"
 #include <iostream>
+#include <fstream>
 #include <string>
 
 #include "misc.h"

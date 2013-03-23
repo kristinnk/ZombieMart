@@ -7,11 +7,11 @@ int main(int argc, char **argv) {
   
   bool quit = false;
   while ( !quit ) { // Game loop
-    game.inputHandler();
-    game.update();
+    //game.inputHandler();
+    //game.update();
     game.draw();
     
-    // Turn off after one frame. remover
+    // Turn off after one frame. remove
     // when keyboard handler has been
     // implemented
     quit = true;

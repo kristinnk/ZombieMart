@@ -5,16 +5,16 @@ class game_class {
 public:
   game_class();
   ~game_class();
-  void inputHandler();
-  void update();
+  //void inputHandler();
+  //void update();
   void draw();
+  player_class player;
   
 private:
-  SDL_Surface* screen;
+  SDL_Surface* m_screen;
   int m_screenWidth;
   int m_screenHeight;
   int m_screenBPP;
   
-  player_class player;
   
 };
