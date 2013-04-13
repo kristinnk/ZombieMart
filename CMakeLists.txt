@@ -6,6 +6,6 @@ add_definitions(-lSDL)
 
 set(CMAKE_CXX_FLAGS "-g -lSDL")
 				   
-add_executable(${PROJECT_NAME} main.cpp game_class.cpp image_handler.cpp player.cpp)
+add_executable(${PROJECT_NAME} main.cpp game_class.cpp image_handler.cpp player.cpp world.cpp creature_base.cpp zombie.cpp projectiles.cpp )
 
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
